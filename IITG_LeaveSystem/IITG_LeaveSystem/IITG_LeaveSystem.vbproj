@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4C230B2-1145-469D-B81D-D0015C1D03A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>IITG_LeaveSystem.My.MyApplication</StartupObject>
+    <RootNamespace>IITG_LeaveSystem</RootNamespace>
+    <AssemblyName>IITG_LeaveSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>IITG_LeaveSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>IITG_LeaveSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LeaveSystemExeIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_User.Designer.vb">
+      <DependentUpon>add_User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apply_for_leave.Designer.vb">
+      <DependentUpon>Apply_for_leave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apply_for_leave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaveSystemDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeaveSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Office_HomePage.Designer.vb">
+      <DependentUpon>Office_HomePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Office_HomePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rest_HomePage.Designer.vb">
+      <DependentUpon>Rest_HomePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rest_HomePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_HomePage.Designer.vb">
+      <DependentUpon>Student_HomePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student_HomePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userDelete.Designer.vb">
+      <DependentUpon>userDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="userDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userUpdate.Designer.vb">
+      <DependentUpon>userUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="userUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="add_User.resx">
+      <DependentUpon>add_User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apply_for_leave.resx">
+      <DependentUpon>Apply_for_leave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Office_HomePage.resx">
+      <DependentUpon>Office_HomePage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rest_HomePage.resx">
+      <DependentUpon>Rest_HomePage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_HomePage.resx">
+      <DependentUpon>Student_HomePage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userDelete.resx">
+      <DependentUpon>userDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userUpdate.resx">
+      <DependentUpon>userUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LeaveSystemDataSet.xsc">
+      <DependentUpon>LeaveSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LeaveSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LeaveSystemDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LeaveSystemDataSet.xss">
+      <DependentUpon>LeaveSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeaveSystemIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LeaveSystem.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LeaveSystemExeIcon.ico" />
+    <None Include="Resources\old-appl.png" />
+    <None Include="Resources\New Application.png" />
+    <None Include="Resources\profile-icon.png" />
+    <None Include="Resources\logout.png" />
+    <None Include="Resources\Refresh.png" />
+    <None Include="Resources\delete-user.png" />
+    <None Include="Resources\edit-user.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\button-round-tick-ok-icon.png" />
+    <None Include="Resources\add-user-icon.png" />
+    <None Include="Resources\user_add.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\Forgot-Pass.png" />
+    <None Include="Resources\password.png" />
+    <None Include="Resources\user-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
