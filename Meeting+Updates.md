@@ -6,7 +6,7 @@ This file will include all the meeting informations and the updates after each d
 
 Members not present in the meeting
   
-    1. Mayank Chandra
+    1. asif khan
 
 Minutes
 	
@@ -43,10 +43,10 @@ Minutes
 	
 Work Distribution For Now
 
-	1. Manan - Database Creation, Login Form + Password Encryption
-	2. Utkarsh + Ikya - Office Home Page + Edit student leaves + Query page for office (Entire functioing of the office)
-	3. Siddharth - Student Home Page + Leave Request + Edit Profile + Extend Leave (Entire functioing of the student)
-	4. Mayank + Aniket + Manan - DPPC, Professor, Dean, etc Home Page + Query Search + Apply Leave
+	1. Hemanth - Database Creation, Login Form + Password Encryption
+	2. pradeep + siva - Office Home Page + Edit student leaves + Query page for office (Entire functioing of the office)
+	3. lahari - Student Home Page + Leave Request + Edit Profile + Extend Leave (Entire functioing of the student)
+	4. Asif + Tharun + Rohith - DPPC, Professor, Dean, etc Home Page + Query Search + Apply Leave
 
 ### EOD 31 January Updates
 
@@ -64,24 +64,14 @@ Minutes
 	
 Work Distribution For Now
 
-	1. Manan - UI of forms
-	2. Utkarsh + Ikya - User Documentation
-	3. Siddharth + Mayank - Technichal Documentation 
-	4. Aniket - Redo Mayanks work
+	1. siva - UI of forms
+	2. hemanth + asif - User Documentation
+	3. tharun + rohith - Technichal Documentation 
+	4. lahari - Redo siva's work
 	
 ### 11th February, 2019
 
 The project stands completed with the UI complete as well
 
-Final Contributions of all people
 
-	1. Manan - Database Creation, Login Form + Password Encryption
-	2. Utkarsh + Ikya - Office Functionality
-	3. Siddharth - Student Home Page
-	4. Mayank + Aniket + Manan - DPPC, Professor, Dean, etc Functionality
-	5. Manan - Office Functionality Completion + UI of forms
-	6. Utkarsh + Ikya - User Documentation
-	7. Siddharth + Mayank - Technichal Documentation 
-	8. Aniket - Redo Some parts of Rest Home Page due to errors in functionality
-	9. Mayank - Complete Testing of the entire project with help in minor bug fixes from Siddharth and Manan
 
